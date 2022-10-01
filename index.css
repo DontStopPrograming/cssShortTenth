@@ -1,0 +1,31 @@
+.snip1325 {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    height: 220px;
+    width: 100%;
+    box-shadow: 0 0 5px #00000026;
+  }
+  .snip1325 img {
+    display: inline;
+    font-size: inherit;
+    height: 100%;
+    position: absolute;
+    
+    -webkit-transition: all 1s ease-out;
+    transition: all 2s ease-out;
+  }
+  .snip1325:hover img,
+  .snip1325.hover img {
+    -webkit-transform: translateX(130px);
+    transform: translateX(130px);
+  }
+  /* Demo purposes only */
+  body {
+    background: linear-gradient(10deg, black, white);
+  }
+  
+
+
